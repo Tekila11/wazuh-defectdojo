@@ -1,0 +1,3 @@
+opensearch-py
+requests
+urllib3

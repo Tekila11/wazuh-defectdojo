@@ -1,0 +1,29 @@
+# Secrets and local configuration
+.env
+*.env
+!.env.example
+config.yml
+!config.yml.sample
+
+# Connector / script runtime state
+state.json
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Local data dumps
+*.csv
+*.gz
+*.zip
